@@ -1,0 +1,34 @@
+{
+  "name": "expressmonolith",
+  "version": "1.0.0",
+  "description": "WebApp monolith using node express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-monolith"
+  },
+  "keywords": [
+    "node",
+    "monolith"
+  ],
+  "author": "Chandrika Eka Kurniawan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-ejs-layouts": "^2.5.1",
+    "i": "^0.3.7",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.1.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "npm": "^8.3.0"
+  }
+}
