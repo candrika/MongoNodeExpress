@@ -1,3 +1,30 @@
+#hero{
+    background-image: url('../img/library-background.jpg');
+    background-size: cover;
+}
+.button{
+    padding:20px;
+}
 .button.is-primary{
     border-color: #fff;
+    color:#fff;
+    background-color: #00d1b24f;
+}
+pre{
+    white-space: pre-wrap;
+}
+.pre-wrapper{
+    padding-bottom: 20px;
+}
+code{
+    margin-bottom: 20px;
+}
+.header-titles{
+    padding-bottom: 50px;
+}
+.conten .main-tex .p:last-child{
+    padding-bottom: 30px;
+}
+.owl-wrapper, .owl-item{
+    width: 100%!important;
 }

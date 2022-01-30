@@ -57,7 +57,7 @@ app.use(flash());
 //setting static file eccess
 //for access static file like :
 //css file, jquery, boostrap
-app.use('/static',express.static(path.join(__dirname,'public'))); 
+app.use(express.static('public'))
 
 //setting cors config
 app.use((req, res, next) => { //doesn't send response just adjusts it
